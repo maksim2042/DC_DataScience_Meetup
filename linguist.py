@@ -7,14 +7,9 @@ Created by Maksim Tsvetovat on 2011-12-08.
 Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 """
 
-import sys
-import os
-
 from english_stoplist import stoplist
 
-import collections as c
 import stemming.porter2 as stem 
-from itertools import islice
 import string
 import guess_language as gl
 
