@@ -7,8 +7,6 @@ Created by Maksim Tsvetovat on 2011-12-08.
 Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 """
 
-import sys
-import os
 import networkx as net
 import logging
 #import s3writer as s3

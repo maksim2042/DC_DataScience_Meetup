@@ -1,14 +1,11 @@
-import zipfile
 import simplejson as json
 import re
 from collections import defaultdict
 
 import linguist
 from candidates import candidates as can
-from media
+from media import media
 import discourse_mapper
-import media
-from filterwords import filterwords
 
 import requests
 

@@ -7,8 +7,6 @@ Created by Maksim Tsvetovat on 2011-12-20.
 Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 """
 
-import sys
-import os
 import simplejson as json
 from collections import defaultdict
 import logging 
@@ -17,10 +15,7 @@ import linguist as cl
 import candidates as can
 import media
 
-
 from wordbag import wordbag
-import networkx as net
-
 from hottie import hot
 
 corpusPath='data/'
