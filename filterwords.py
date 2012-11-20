@@ -1,0 +1,1 @@
+filterwords="gaza,israel,attack,rocket,missile,civilian,hamas,quassam,palestine,palestinian,stoptherockets,collateral,shelter,family,children,explosion,terrorism,terrorist,terror,gazaunderattack,resistance,freedom,occupation,zionist,zion".split(',')
