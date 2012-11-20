@@ -54,7 +54,7 @@ def process(text):
             except TypeError:
                 pass
                 
-            if (token not in stoplist) and (not token.startswith('@')): 
+            if (token not in stoplist) and (not token.startswith('@')) and (not token.startswith('http')): 
                 tokens.append(stem.stem(token))
                 
         return tokens
